@@ -1,0 +1,11 @@
+{
+  "profile": "product-admin",
+  "sourceRoots": ["lib"],
+  "locale": "pt-BR",
+  "canonicalMap": "UX-CONTRACT.md",
+  "requiredCapabilities": ["Select/Listbox", "Form", "Toast", "CRUD", "Scrollbar"],
+  "ownership": {"Select/Listbox": "native"},
+  "requiredCommands": ["analyze", "test", "build"],
+  "commands": {"analyze": "flutter analyze", "test": "flutter test", "build": "flutter build web"},
+  "evidence": {"crudFullFlow": "test/widget_test.dart", "failurePaths": "test/widget_test.dart"}
+}
